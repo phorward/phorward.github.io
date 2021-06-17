@@ -4,27 +4,32 @@ description = "About"
 weight = 1
 +++
 
-# Hi there!
+<img src="/portrait.jpg" title="Picture of me in front of a Turbo Savage">
+
+# Hello World!
 
 My name is **Jan Max Meyer**, I'm a professional full stack software developer living near Dortmund, Germany.
 
-In 1998, with the age of 13, I started to create my first little programs in QBASIC on DOS. Since then, programming became my passion.
+With the age of 13, in 1998, I've started to write my first little programs in QBASIC on DOS. Since then, programming and computing in general became my passion.
 
-In my professional life, I work as senior full stack developer at a mid-size software company in Dortmund, specialized on cloud software development for various customers in Europe.
+In my professional life, I work as a senior full stack developer at a mid-sized software company in Dortmund, Germany, specialized on cloud software development for various customers in Europe.
 
-Personally I'm heavily interested into engineering programming languages and domain specific languages, parsing in general, compilers and virtual machines, or software development tools in general. This is where **Phorward Software Technologies** begins. It is the name of some kind of freelancing activity and avocational business I'm doing on my own and mostly in my spare time.
+Personally, I'm heavily interested into language engineering, several parsing topics, compilers, virtual machines and software development tools in general. This is where **Phorward Software Technologies** begins. It is the name of some kind of freelancing activity and avocational business I'm doing on my own and mostly in my spare time.
+
+Beyond coding, I love flying both gliders and light aircraft for towing as my hobby.
 
 # Skills
 
-- C, Python, Rust *and several more*
-- JavaScript/HTML/CSS *and other web-technologies*
+- C, Python, Rust *and some legacy ones*
+- JavaScript/HTML/CSS *and more web-technologies*
 - SQL (Oracle, Informix, MySQL, SQLite)
-- Linux/Unix, Windows
+- Linux/Unix
 - bash, awk, sed
-- lex, yacc, unicc *and background on LR/LALR/GLR/GLL/PEG & hand-crafted recursive descent parsing*
+- lex, yacc, unicc *with further background on LR/LALR/GLR/GLL/PEG & hand-crafted recursive descent parsing*
 - autotools, make
 - git, mercurial
 - Google Cloud
+- IntelliJ, Borland, Visual Studio
 
 # References
 
@@ -48,19 +53,20 @@ Next, I want to present some notable projects I've been working on in the past o
 
 ## Tools development
 
-- 2009: Several command-line interfaces to Microsoft Office written in VBA and VBScript (*)
-- 2012: Port of some legacy Unix-software written in C to the POSIX-emulation layers Interix (SUA) and Cygwin on Microsoft Windows Server (*)
-- 2013: Tools for source code maintenance and automated documentation assembling using an bash/awk/sed/txt2tags/htmldoc/pdftk-based toolchain (*)
-- 2013: Shell scripting interface for UI-interaction on a client/server Unix-based ERP-software (*)
+- 2009: Interfaces to Microsoft Office written in VBA and VBScript (*)
+- 2012: Port of legacy Unix-software written in C to the POSIX-emulation layers Interix (SUA) and Cygwin on Microsoft Windows Server (*)
+- 2013: Tooling for source code maintenance and documentation using an bash/awk/sed-based toolchain (*)
+- 2013: Universal scripting interface for creating bash or Python scripts with graphical UI-interaction on a client/server Unix-based ERP-software (*)
 - since 2014: [ViUR](https://www.viur.dev), an open source Python application development framework for the Google Cloud App Engine platform (*)
 
 ## Application development
 
 - 2005-2010: Several projects and modules for software in payroll accounting, cost accounting, ERP and HR (*)
 - 2007-2010: Personal management system, with user-customizable database and input masks (*)
-- 2012-2014: Ad-hoc report generator, viewer and querying system, rendering into several output formats, inheritable report definitions (*)
-- 2015: Web-based intercompany system for technical data & knowledge management, including access control down onto field level (*)
+- 2012-2014: Ad-hoc report generator, viewer and querying system, rendering into several output formats, supporting inheritable report definitions (*)
+- 2015: Web-based intercompany system for technical data & knowledge management, including field-level access control (*)
 - 2015: Web-shops for products and tickets, including ticket reservation & printing (*)
-- 2016: Web-app for documentations of activity, working hours and checklists for workshops (*)
+- 2016: Android web-app for documentation of activity, working hours and checklists for workshops (*)
 - since 2016: Web-based system for sales-oriented coordination of product catalogs, allows definition of custom input masks and scriptable data export formats for different use-cases (*)
-- since 2018: Web-based end-user-oriented editor for template-based, dynamically generated WYSIWYG correspondence (*)
+- since 2018: Web-based end-user-oriented editor for template-based, dynamically generated WYSIWYG mass correspondence (*)
+- since 2020: Web-based portal software for several third-party apps including interfaces and APIs, partly implemented with WebAssembly (*)
