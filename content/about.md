@@ -4,29 +4,29 @@ description = "About"
 weight = 1
 +++
 
-<img src="/portrait.jpg" title="Picture of me in front of a Turbo Savage">
+<img src="/portrait.jpg" title="Picture of me in front of a Turbo Savage towing plane">
 
 # Hello World!
 
 My name is **Jan Max Meyer**, I'm from near Dortmund, Germany.
 
-With the age of 13, in 1998, I've started to write my first little programs in QBASIC on DOS. Since then, programming and computing in general became my passion.
+In 1998, with the age of 13, I've started to create my first little programs in QBASIC on DOS. Since then, programming and computing in general became my passion.
 
 In my professional life, I work as a senior full stack developer at a mid-sized software company in Dortmund, Germany, specialized on cloud software development for various customers in Europe.
 
-Personally, I'm heavily interested into language engineering, parsing topics, compilers, virtual machines and software development tools in general. This is where **Phorward Software Technologies** starts. It is the name of some kind of freelancing activity and avocational business I'm doing on my own and mostly in my spare time.
+Personally, I'm heavily interested into language engineering, several parsing topics, compilers, virtual machines and software development tools in general. This is where **Phorward Software Technologies** starts. It is the name of some kind of freelancing activity and avocational business I'm doing on my own and mostly in my spare time.
 
-Beyond coding, I love flying gliders and light aircraft for towing as my hobby.
+Beyond coding, I'm a passionate glider pilot and love to fly other aircraft for fun as well.
 
 # Skills
 
-- Fluent in **Python**, **Rust**, **C/C++**, further experience in other languages
-- Practical **compiler construction** and **language engineering**, including lex, yacc, unicc and similar tools, further backgrounds on LR/LALR/GLR/GLL/PEG & hand-crafted recursive descent parsing, implemented languages for different kind and purpose
-- **JavaScript/HTML/CSS** and several more web-technologies
-- **Google Cloud** with App Engine, Datastore, Big Table
-- **Linux/Unix** operating system experience
+- Fluent in **Python**, **Rust**, **C/C++** and further languages
+- Practical **compiler construction** and **language engineering** skills, including **lex**, **yacc**, **unicc** and similar tools, further backgrounds on LR/LALR/GLR/GLL/PEG & hand-crafted recursive descent parsing, implemented languages for different kind and purpose
+- Experienced in **JavaScript/HTML/CSS** and several more web-technologies
+- Several **SQL-dialects** and DBMS like Oracle, Informix, MySQL, SQLite
 - **Shell programming** with bash, awk, sed
-- Several **SQL** DBMS like Oracle, Informix, MySQL, SQLite
+- Cloud experience with **Google App Engine, Datastore, Big Table**
+- **Linux** is my favorite operating system of choice
 
 # References
 
