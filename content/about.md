@@ -4,7 +4,7 @@ description = "About"
 weight = 1
 +++
 
-<img src="/portrait.jpg" title="Picture of me in front of a Turbo Savage towing plane">
+<img src="/portrait.jpg" title="Picture of me in front of the Turbo Savage microlight towing aircraft">
 
 # Hello World!
 
@@ -42,11 +42,12 @@ Next, I want to present some notable projects I've been working on in the past o
 - 2012: Report generator with related, dynamic database querying and integrated Excel-style formula-language working on special types like ranges and number groups (*C, unicc* *)
 - 2014:	Compiler generating altering Informix-SQL as the result from comparisons of domain-specific database descriptions (*C, lex, yacc* *)
 - 2015: [pynetree](https://github.com/phorward/pynetree) parsing library
-- 2015:	[logics & vistache](https://github.com/viur-framework/logics), an expressional templating engine (*Python, unicc* *)
+- 2015:	[logics & vistache](https://github.com/viur-framework/viur-logics), an expressional templating engine (*Python, unicc* *)
 - 2017:	Compact, hand-crafted HTML-parser & interpreter for an [html5 Python object library](https://github.com/viur-framework/flare) (*)
 - 2018: [Airbatch](https://github.com/phorward/airbatch), an experimental, context-oriented batch data capturing system
-- since 2019: Contributor of [Pyodide](https://pyodide.org), a Python-interpreter compiled to web-assembly, initially started by Mozilla
-- since 2020: Creator of [Tokay](https://tokay.dev), a programming language dedicated to parsing and other text-processing tasks
+- since 2019: Contributor of [Pyodide](https://pyodide.org), a Python-interpreter compiled to web-assembly, initially started by Mozilla (*C, Python, JavaScript, bash*)
+- 2020: MEX language, embeds [logics](https://github.com/viur-framework/viur-logics) as part of a container language for expressing tabular data extractions (*Python, unicc* *)
+- since 2020: [Tokay](https://tokay.dev), a personal programming language project dedicated to parsing and other text-processing tasks (*Rust*)
 
 ## Tools development
 
