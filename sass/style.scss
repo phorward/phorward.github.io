@@ -6,7 +6,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: var(--secondary-color);
+  background-color: #202020;
 }
 
 a {
@@ -28,7 +28,7 @@ p > img {
 
 header {
   //background-color: var(--primary-color);
-  background: transparent;
+  background-color: var(--secondary-color);
   color: black;
   padding: 20px 50px;
   display: flex;
@@ -95,8 +95,21 @@ header {
 }
 
 main {
-  display: flex;
-  padding: 50px 100px;
+  background: url('forest-landscape.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+
+  .wrap {
+    display: flex;
+    padding: 50px 100px;
+  }
+
+  .content {
+    border-radius: 0 10px 10px 0;
+    background-color: var(--secondary-color);
+  }
 
   .toc {
     max-width: 260px;
@@ -129,8 +142,7 @@ main {
 }
 
 .toc-sticky {
-  border-radius: 3px;
-  border-top: 5px solid var(--primary-color);
+  border-radius: 10px 0 0 10px;
   background-color: white;
   position: sticky;
   position: -webkit-sticky;
@@ -142,12 +154,11 @@ main {
 }
 
 footer {
-  padding: 50px;
+  padding: 50px 0 150px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #202020;
   color: #fcfcfc;
 
   a {
@@ -158,7 +169,7 @@ footer {
 
 @media screen and (min-width: 1280px) {
   .content {
-    max-width: 60%;
+    max-width: 80%;
     min-width: 800px;
   }
 }
@@ -192,11 +203,16 @@ footer {
   }
 
   main {
-    padding: 30px;
+    background-image: url('forest-portrait.jpg');
+
+    .wrap {
+      padding: 25px;
+    }
   }
 
   .content {
-    padding: 0;
+    padding: 5px;
+
   }
 
   .explore-more, .toc {

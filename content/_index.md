@@ -4,9 +4,9 @@ sort_by = "weight"
 #redirect_to = "/about"
 +++
 
-# Welcome!
+# Hi there!
 
-This is the new homepage of **Phorward Software Technologies**.<br>
-There's not so much to see here right now, but content will follow and maybe also a blog on coding stuff soon.
+<img src="/duo-2021.jpg" title="The Duo Discus over Klix, Aug 2021.">
 
-<img src="/forest.jpg" title="Picture of a forest... might this be a parse forest?">
+This is the new home of *Phorward Software Techologies* and a way to express my personal software projects and passion for coding and other stuff I like.
+If you have any questions, feel free to <a href="/contact">contact me</a>.

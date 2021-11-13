@@ -1,38 +1,32 @@
 +++
-title = "About"
-description = "About"
+title = "About me"
+description = "About me"
 weight = 1
 +++
 
 <img src="/portrait.jpg" title="Picture of me in front of the Turbo Savage microlight towing aircraft">
 
-# Hello World!
-
-My name is **Jan Max Meyer**, I'm from near Dortmund, Germany.
+My name is **Jan Max Meyer**, I'm living near Dortmund, Germany.
 
 In 1998, with the age of 13, I've started to create my first little programs in QBASIC on DOS. Since then, programming and computing in general became my passion.
 
 In my professional life, I work as a senior full stack developer at a mid-sized software company in Dortmund, Germany, specialized on cloud software development for various customers in Europe.
 
-Personally, I'm heavily interested into language engineering, several parsing topics, compilers, virtual machines and software development tools in general. This is where **Phorward Software Technologies** starts. It is the name of some kind of freelancing activity and avocational business I'm doing on my own and mostly in my spare time.
+Personally, I'm heavily interested into language engineering, several parsing topics, compilers, virtual machines and software development tools in general. This is where **Phorward Software Technologies** starts.
 
 Beyond coding, I'm a passionate glider pilot and love to fly other aircraft for fun as well.
 
 # Skills
 
 - Fluent in **Python**, **Rust**, **C/C++** and further languages
-- Practical **compiler construction** and **language engineering** skills, including **lex**, **yacc**, **unicc** and similar tools, further backgrounds on LR/LALR/GLR/GLL/PEG & hand-crafted recursive descent parsing, implemented languages for different kind and purpose
+- Skills in practical **compiler construction** and **language engineering**, including **lex**, **yacc**, **unicc** and similar tools, further backgrounds on various parsing algorithms, including LR/LALR/GLR/GLL/PEG & hand-crafted recursive descent
 - Experienced in **JavaScript/HTML/CSS** and several more web-technologies
 - Several **SQL-dialects** and DBMS like Oracle, Informix, MySQL, SQLite
 - **Shell programming** with bash, awk, sed
 - Cloud experience with **Google App Engine, Datastore, Big Table**
 - **Linux** is my favorite operating system of choice
 
-# References
-
-Next, I want to present some notable projects I've been working on in the past or where I'm still involved. References marked with a star (*) are from my professional work life and mostly closed-source.
-
-## Language engineering & tools
+# Language engineering & tools
 
 - 2005: [RapidBATCH](https://www.rapidbatch.com), an interpreted scripting language targetting Windows automation & tooling
 - 2006: [Phorward C/C++ Library](https://github.com/phorward/phorward), containing a Unicode-enabled regular expressions engine, amongst other things
@@ -49,7 +43,7 @@ Next, I want to present some notable projects I've been working on in the past o
 - 2020: MEX language, embeds [logics](https://github.com/viur-framework/viur-logics) as part of a container language for expressing tabular data extractions (*Python, unicc* *)
 - since 2020: [Tokay](https://tokay.dev), a personal programming language project dedicated to parsing and other text-processing tasks (*Rust*)
 
-## Tools development
+# Tools development
 
 - 2009: Interfaces to Microsoft Office written in VBA and VBScript (*)
 - 2012: Port of legacy Unix-software written in C to the POSIX-emulation layers Interix (SUA) and Cygwin on Microsoft Windows Server (*)
@@ -57,7 +51,7 @@ Next, I want to present some notable projects I've been working on in the past o
 - 2013: Scripting interface for creating bash or Python scripts with graphical UI-interaction on a client/server Unix-based ERP-software (*C, bash* *)
 - since 2014: [ViUR](https://www.viur.dev), an open source Python application development framework for the Google Cloud App Engine platform (*)
 
-## Application development
+# Application development
 
 - 2005-2010: Several projects for software in payroll accounting, cost accounting, ERP, HR, PMS (*)
 - 2007-2010: Personal information database, providing user-customizable database and input masks (*)

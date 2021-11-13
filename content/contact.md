@@ -4,7 +4,7 @@ description = "Contact"
 weight = 3
 +++
 
-If you want to contact me directly, feel free to drop me an email to **jmm-AT-phorward-DOT-de**.
+If you want to contact me directly, please drop me an email to **jmm-AT-phorward-DOT-de**.
 
 # Imprint
 
