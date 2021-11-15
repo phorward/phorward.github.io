@@ -24,6 +24,15 @@
 
     <main>
         <div class="wrap">
+            <div class="content text">
+                {% block content %}
+                    {% if section.title %}
+                        <div class="heading-text">{{ section.title }}</div>
+                    {% endif %}
+                    {{ section.content | safe }}
+                {% endblock content %}
+            </div>
+
             {% block toc %}
                 {% if section.toc %}
                     {% set toc = section.toc %}
@@ -51,12 +60,6 @@
                 {% endif %}
             {% endblock toc %}
 
-            <div class="content text">
-                {% block content %}
-                {{ section.content | safe }}
-                {% endblock content %}
-            </div>
-
             {% block sidebar %}
             {% endblock %}
         </div>
@@ -65,7 +68,7 @@
     {% block footer %}
     <footer>
         <small class="subtext">
-            © 2021 by Jan Max Meyer (Phorward Software Technologies)
+            © 2021 by Jan Max Meyer, Phorward Software Technologies
         </small>
     </footer>
     {% endblock footer %}

@@ -1,16 +1,15 @@
 +++
 title = "About me"
-description = "About me"
-weight = 1
+weight = 10
 +++
 
 <img src="/portrait.jpg" title="Picture of me in front of the Turbo Savage microlight towing aircraft">
 
-My name is **Jan Max Meyer**, I'm living near Dortmund, Germany.
+Hi there! My name is **Jan Max Meyer**, I'm living near Dortmund, Germany.
 
-In 1998, with the age of 13, I've started to create my first little programs in QBASIC on DOS. Since then, programming and computing in general became my passion.
+With the age of 13, I've started to create my first little programs in QBASIC on DOS. Since then, programming and computing in general became my passion.
 
-In my professional life, I work as a senior full stack developer at a mid-sized software company in Dortmund, Germany, specialized on cloud software development for various customers in Europe.
+In my professional life, I work as a senior full stack developer at a software company in Dortmund, Germany, specialized on cloud software development for various customers in Europe.
 
 Personally, I'm heavily interested into language engineering, several parsing topics, compilers, virtual machines and software development tools in general. This is where **Phorward Software Technologies** starts.
 
@@ -41,7 +40,7 @@ Beyond coding, I'm a passionate glider pilot and love to fly other aircraft for 
 - 2018: [Airbatch](https://github.com/phorward/airbatch), an experimental, context-oriented batch data capturing system
 - since 2019: Contributor of [Pyodide](https://pyodide.org), a Python-interpreter compiled to web-assembly, initially started by Mozilla (*C, Python, JavaScript, bash*)
 - 2020: MEX language, embeds [logics](https://github.com/viur-framework/viur-logics) as part of a container language for expressing tabular data extractions (*Python, unicc* *)
-- since 2020: [Tokay](https://tokay.dev), a personal programming language project dedicated to parsing and other text-processing tasks (*Rust*)
+- since 2020: [Tokay](https://tokay.dev), a programming language dedicated to parsing and other text-processing tasks (*Rust*)
 
 # Tools development
 

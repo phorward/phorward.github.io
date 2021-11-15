@@ -14,5 +14,5 @@ highlight_code = true
 logo_path = "phorward-logo.svg"
 logo_name = "Phorward Software Technologies"
 extra_menu = [
-    { title = "Github", link = "https://github.com/phorward"}
+    { title = "GitHub", link = "https://github.com/phorward"}
 ]

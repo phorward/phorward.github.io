@@ -1,7 +1,6 @@
 +++
 title = "Contact"
-description = "Contact"
-weight = 3
+weight = 30
 +++
 
 If you want to contact me directly, please drop me an email to **jmm-AT-phorward-DOT-de**.

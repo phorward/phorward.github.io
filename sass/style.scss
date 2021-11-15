@@ -107,8 +107,12 @@ main {
   }
 
   .content {
-    border-radius: 0 10px 10px 0;
+    border-radius: 10px 0 0 10px;
     background-color: var(--secondary-color);
+
+    img {
+      border-radius: 10px;
+    }
   }
 
   .toc {
@@ -142,14 +146,14 @@ main {
 }
 
 .toc-sticky {
-  border-radius: 10px 0 0 10px;
+  border-radius: 0 10px 10px 0;
   background-color: white;
   position: sticky;
   position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
-  top: 10px;
+  top: 50px;
   padding: 10px 0;
 }
 
@@ -169,8 +173,7 @@ footer {
 
 @media screen and (min-width: 1280px) {
   .content {
-    max-width: 80%;
-    min-width: 800px;
+    width: 80%;
   }
 }
 
