@@ -9,21 +9,20 @@ If you want to contact me directly, please drop me an email to **jmm-AT-phorward
 
 # Imprint
 
-The responsibility for the content of this website belongs to
+Imprint in accordance with §5 of german TMG
 
-Phorward Software Technologies<br>
 Jan Max Meyer<br>
+Phorward Software Technologies<br>
 Köttersweg 16<br>
 58239 Schwerte<br>
 Germany<br>
+<br>
+Phone: +49 2304 3078923<br>
+Email: jmm-AT-phorward-DOT-de
 
 # Legal notes
 
-*Phorward Software Technologies* is by self-run business as avocational freelancer.<br>
-Tax ID:
-
-Economics ID: 51142907685
-
+*Phorward Software Technologies* is a freelance, part-time job.
 
 # Disclaimer
 
