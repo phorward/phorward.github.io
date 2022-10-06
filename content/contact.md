@@ -3,6 +3,8 @@ title = "Contact"
 weight = 30
 +++
 
+<img src="/windsock.webp" title="Windsock" alt="Picture of a windsock at Rheinermark airfield">
+
 If you want to contact me directly, please drop me an email to **jmm-AT-phorward-DOT-de**.
 
 # Imprint
@@ -15,11 +17,11 @@ Köttersweg 16<br>
 58239 Schwerte<br>
 Germany<br>
 
-Please contact me by e-mail on any questions or issues.
-
 # Legal notes
 
-Legal form: Avocational freelancer<br>
+*Phorward Software Technologies* is by self-run business as avocational freelancer.<br>
+Tax ID:
+
 Economics ID: 51142907685
 
 

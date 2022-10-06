@@ -4,7 +4,5 @@
 {% block title %}{{ page.title }} | {{ super() }} {% endblock title %}
 
 {% block content %}
-    <div class="heading-text">{{ page.title }}</div>
-
     {{ page.content | safe }}
 {% endblock content %}

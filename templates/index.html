@@ -26,9 +26,6 @@
         <div class="wrap">
             <div class="content text">
                 {% block content %}
-                    {% if section.title %}
-                        <div class="heading-text">{{ section.title }}</div>
-                    {% endif %}
                     {{ section.content | safe }}
                 {% endblock content %}
             </div>
@@ -42,20 +39,27 @@
 
                 {% if toc and toc|length > 1 %}
                     <div class="toc">
-                        <div class="toc-sticky">
+                        <ul class="toc-sticky subtext">
+                            {% if page.title %}
+                                <div class="heading-text">{{ page.title }}</div>
+                            {% endif %}
+
                             {% for h in toc %}
-                                <div class="toc-item">
-                                    <a class="subtext {% if loop.first %}active{% endif %}" href="{{h.permalink | safe}}">{{ h.title }}</a>
-                                </div>
-                                {% if h.children %}
-                                    {% for h2 in h.children %}
-                                    <div class="toc-item-child">
-                                        <a class="subtext" href="{{h2.permalink | safe}}"><small>- {{ h2.title }}</small></a>
-                                    </div>
-                                    {% endfor %}
-                                {% endif %}
+                                <li class="toc-item">
+                                    <a class="{% if loop.first %}active{% endif %}" href="{{h.permalink | safe}}">{{ h.title }}</a>
+
+                                    {% if h.children %}
+                                        <ul class="toc-item-sub">
+                                        {% for h2 in h.children %}
+                                            <li class="toc-item-sub-item">
+                                                <a href="{{h2.permalink | safe}}">{{ h2.title }}</a>
+                                            </li>
+                                        {% endfor %}
+                                        </ul>
+                                    {% endif %}
+                                </li>
                             {% endfor %}
-                        </div>
+                        </ul>
                     </div>
                 {% endif %}
             {% endblock toc %}
@@ -68,7 +72,7 @@
     {% block footer %}
     <footer>
         <small class="subtext">
-            © 2021 by Jan Max Meyer, Phorward Software Technologies
+            © 2022 by Jan Max Meyer, Phorward Software Technologies
         </small>
     </footer>
     {% endblock footer %}

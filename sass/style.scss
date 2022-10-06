@@ -13,19 +13,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  margin-top: 0.5rem;
-}
-
-ul > li {
-  padding: 0.3rem 0;
-}
-
-p > img {
-  width: 25%;
-  height: auto;
-}
-
 header {
   //background-color: var(--primary-color);
   background-color: var(--secondary-color);
@@ -84,7 +71,7 @@ header {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1280px) {
   .hero section {
       padding: 0 2rem;
   }
@@ -107,6 +94,7 @@ main {
   }
 
   .content {
+    padding: 25px;
     border-radius: 10px 0 0 10px;
     background-color: var(--secondary-color);
 
@@ -125,7 +113,7 @@ main {
     color: #424242;
   }
 
-  .toc-item a, .toc-item-child a {
+  .toc-item a, .toc-item-sub a {
     color: var(--secondary-text-color);
 
     &:hover {
@@ -134,18 +122,28 @@ main {
     }
   }
 
-  .toc-item a.active, .toc-item-child a.active {
+  .toc-item a.active, .toc-item-sub a.active {
     color: var(--toc-highlight-text-color);
   }
 
-  .toc-item-child {
-    padding: 0 30px 5px;
-    color: #424242;
+  .toc-item-sub {
+    list-style: disc;
+    padding: 5px 15px;
+
+    li {
+      padding: 5px 0px;
+    }
+  }
+
+  .toc-item-sub-item {
+    font-size: 0.9em
   }
 
 }
 
 .toc-sticky {
+  margin: 0;
+  list-style: none;
   border-radius: 0 10px 10px 0;
   background-color: white;
   position: sticky;
@@ -153,7 +151,7 @@ main {
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
-  top: 50px;
+  top: 45px;
   padding: 10px 0;
 }
 
@@ -171,13 +169,21 @@ footer {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
+  main {
+    background-image: url('forest-portrait.jpg');
+
+    .wrap {
+      padding: 25px;
+    }
+  }
+
   .content {
     width: 80%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   header {
     //background-color: var(--primary-color);
     padding: 10px 30px;
