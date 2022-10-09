@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Phorward Software Technologies </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+    :root {
+        /* Primary theme color */
+        --primary-color:#eaeaea;
+        /* Primary theme text color */
+        --primary-text-color: #333;
+        /* Primary theme link color */
+        --primary-link-color: #5F609E;
+        /* Secondary color: the background body color */
+        --secondary-color: #fcfaf6;
+        --secondary-text-color: #303030;
+        /* Highlight text color of table of content */
+        --toc-highlight-text-color: #d46e13;
+    }
+</style>
+
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/style.css">
+    
+    
+</head>
+
+<body>
+    
+        <header class="box-shadow">
+            
+    
+    <a href="&#x2F;">
+        <div class="logo">
+            <img src="&#x2F;phorward-logo.svg" alt="Phorward Software Technologies">
+        </div>
+    </a>
+
+    <nav>
+        <a class="nav-item subtitle-text" href="&#x2F;">Home</a>
+        
+            <a class="nav-item subtitle-text" href="&#x2F;about&#x2F;">About me</a>
+        
+            <a class="nav-item subtitle-text" href="&#x2F;projects&#x2F;">Projects</a>
+        
+            <a class="nav-item subtitle-text" href="&#x2F;contact&#x2F;">Contact</a>
+        
+        
+            
+                <a class="nav-item subtitle-text" href="https:&#x2F;&#x2F;github.com&#x2F;phorward">GitHub</a>
+            
+        
+    </nav>
+
+        </header>
+    
+
+    <main>
+        <div class="wrap">
+            <div class="content text">
+                
+    <img src="/windsock.webp" title="Windsock" alt="Picture of a windsock at Rheinermark airfield">
+<p>If you want to contact me directly, please drop me an email to <strong>jmm-AT-phorward-DOT-de</strong>.</p>
+<h1 id="imprint">Imprint</h1>
+<p>Imprint in accordance with §5 of german TMG</p>
+<p>Jan Max Meyer<br>
+Phorward Software Technologies<br>
+Köttersweg 16<br>
+58239 Schwerte<br>
+Germany<br>
+<br>
+Phone: +49 2304 3078923<br>
+Email: jmm-AT-phorward-DOT-de</p>
+<h1 id="legal-notes">Legal notes</h1>
+<p><em>Phorward Software Technologies</em> is a freelance, part-time job.</p>
+<h1 id="disclaimer">Disclaimer</h1>
+<p>The information contained on this website is for general information purposes only. The information is provided by Jan Max Meyer (&quot;the owner&quot;).</p>
+<p>While the owner endeavours to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.</p>
+<p>In no event will the owner be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.</p>
+<p>Through this website you are able to link to other websites which are not under the control of the owner. the owner has no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.</p>
+<p>Every effort is made to keep the website up and running smoothly. However, the owner takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.</p>
+
+
+            </div>
+
+            
+                
+                    
+                
+
+                
+                    <div class="toc">
+                        <ul class="toc-sticky subtext">
+                            
+                                <div class="heading-text">Contact</div>
+                            
+
+                            
+                                <li class="toc-item">
+                                    <a class="active" href="/contact/#imprint">Imprint</a>
+
+                                    
+                                </li>
+                            
+                                <li class="toc-item">
+                                    <a class="" href="/contact/#legal-notes">Legal notes</a>
+
+                                    
+                                </li>
+                            
+                                <li class="toc-item">
+                                    <a class="" href="/contact/#disclaimer">Disclaimer</a>
+
+                                    
+                                </li>
+                            
+                        </ul>
+                    </div>
+                
+            
+
+            
+            
+        </div>
+    </main>
+
+    
+    <footer>
+        <small class="subtext">
+            © 2022 by Jan Max Meyer, Phorward Software Technologies
+        </small>
+    </footer>
+    
+</body>
+<script>
+    function highlightNav(heading) {
+        let pathname = location.pathname;
+        document.querySelectorAll(".toc a").forEach((item) => {
+            item.classList.remove("active");
+        });
+        document.querySelector(".toc a[href$='" + pathname + "#" + heading + "']").classList.add("active");
+    }
+
+    let currentHeading = "";
+    window.onscroll = function () {
+        let h = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
+        let elementArr = [];
+
+        h.forEach(item => {
+            if (item.id !== "") {
+                elementArr[item.id] = item.getBoundingClientRect().top;
+            }
+        });
+        elementArr.sort();
+        for (let key in elementArr) {
+            if (!elementArr.hasOwnProperty(key)) {
+                continue;
+            }
+            if (elementArr[key] > 0 && elementArr[key] < 300) {
+                if (currentHeading !== key) {
+                    highlightNav(key);
+                    currentHeading = key;
+                }
+                break;
+            }
+        }
+    }
+</script>
+
+</html>
